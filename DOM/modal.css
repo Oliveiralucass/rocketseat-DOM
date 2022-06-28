@@ -1,0 +1,49 @@
+:root{
+    --color-background: #f8fafc;
+    --color-text: #1e293b;
+    --color-primary: #2563eb;
+    --color-secundary: #dbeafe;
+    --color-muted-text: #64748b;
+    --color-muted-background: #f3f4f6;
+    --color-shadow:  #cbd5e1;
+    --color-up: #65a30d;
+    --color-bright: #f9fafb;
+}
+
+.modalBody{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalButton{
+    background-color: var(--color-primary);
+    color: var(--color-bright);
+    padding: 12px 20px;
+    border-radius: 6px;
+    border: none;
+}
+
+.mainModalDiv{
+    visibility: hidden;
+    position: fixed;
+    background-color: var(--color-secundary);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.closeModal{
+    background-color: var(--color-background);
+    text-align: center;
+    padding:24px 30px;
+    border-radius: 6px;
+}
+.active{
+    visibility:visible;
+}
